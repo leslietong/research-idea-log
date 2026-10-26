@@ -1,0 +1,14 @@
+interface:
+  display_name: Research Idea Log
+  short_description: Capture research ideas with evidence and next steps
+  default_prompt: Use $research-idea-log to save this idea with its sources, uncertainties,
+    and next research step.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
